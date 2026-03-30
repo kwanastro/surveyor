@@ -1,0 +1,39 @@
+BEGIN_DESC
+Surveyor 7 is on the way to the Moon! You are on an intercept trajectory to land on the moon in 2 days. Use this scenario to practice your landing skills. After your retro engine burns out, press 'J' to deploy the lander and activate the vernier engines for a soft touchdown. Once you mastered it, try your hand at a full mission from launch, midcourse correction, and landing.  Good luck!
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System Sol
+  Date MJD 39280.1580162847
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship Surveyor1
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET Surveyor1
+  MODE Cockpit
+  FOV 50.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Right
+  TYPE User
+  MODE Encounter
+END_MFD
+
+
+BEGIN_SHIPS
+Surveyor1:Surveyor
+  STATUS Orbiting Earth
+  RPOS 34410631.15 -10063576.76 -98940470.69
+  RVEL 1402.271 -224.575 -1922.160
+  AROT -178.39 14.91 176.90
+  PRPLEVEL 0:0.995 1:1 2:1
+  NAVFREQ 0 0
+END
+END_SHIPS
